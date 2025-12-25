@@ -7,6 +7,7 @@
   "dependencies": {
     "axios": "^0.19.2",
     "axios-cookiejar-support": "^1.0.0",
+    "dotenv": "^17.2.3",
     "hubot": "^3.3.2",
     "hubot-diagnostics": "^1.0.0",
     "hubot-google-images": "^0.2.7",
@@ -21,10 +22,11 @@
     "hubot-shipit": "^0.2.1",
     "hubot-slack": "^4.7.1",
     "node-cron": "^2.0.3",
-    "node-html-parser": "^1.2.20"
+    "node-html-parser": "^1.2.20",
+    "otplib": "^12.0.1",
+    "puppeteer": "^24.34.0"
   },
   "engines": {
     "node": "12.14.1"
-  },
-  "devDependencies": {}
+  }
 }
